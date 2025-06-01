@@ -15,30 +15,76 @@ Institusi ingin memanfaatkan data yang dimiliki untuk mendeteksi lebih awal maha
 
 ### Cakupan Proyek
 Untuk menjawab permasalahan bisnis, cakupan proyek ini meliputi:
-1.  Sumber data diambil dari GitHub repository [dataset]()
-2. Analisis data mahasiswa (nilai, kehadiran, status sosial ekonomi, dll.)
-3. Identifikasi variabel paling berpengaruh terhadap dropout
-4 . Membangun model machine learning untuk memprediksi dropout
+1. Analisis data mahasiswa (nilai, kehadiran, status sosial ekonomi, dll.)
+2. Identifikasi variabel paling berpengaruh terhadap dropout
+3 . Membangun model machine learning untuk memprediksi dropout
   dengan tahapan sebagai berikut:
 - Eksplorasi dan visualisasi data (EDA): Menggali pola dropout berdasarkan demografi dan variabel akademik.
-- Preprocessing & Feature Engineering: Menyiapkan data agar siap digunakan dalam algoritma prediksi, termasuk encoding dan standarisasi.
-- Modeling (Klasifikasi): Membangun model klasifikasi seperti Random Forest untuk memprediksi status siswa (Dropout, Enrolled, Graduate).
+   - Jenis kelamin (gender)
+   - Usia (age_at_enrollment)
+   - Status pernikahan (marital_status)
+   - Pekerjaan (employment_status)
+   - Kebutuhan khusus (disability)
+   - Beasiswa (scholarship_holder)
+     
+- Preprocessing & Feature Engineering:
+     - Penanganan missing values
+     - Encoding variabel kategorik
+     - Standarisasi fitur numerik
+     -  data latih dan uji.
+- Modeling (Klasifikasi): Membangun model klasifikasi seperti Random Forest untuk memprediksi status siswa (Dropout, Enrolled, Graduate).\
+     - menggunakan model Rendom forest
 - Evaluasi Model: Mengukur performa model dengan confusion matrix dan F1-score untuk memastikan efektivitas prediksi.
+     - confusion matrix f1-score
 - Visualisasi Hasil: Menyediakan visualisasi seperti confusion matrix dan grafik distribusi untuk mendukung interpretasi hasil.
 
  
-  
-- Visualisasi hasil untuk membantu pihak akademik dalam pengambilan keputusan
-- Sumber data diambil dari GitHub repository
-
 ### Persiapan
 
-Sumber data: ....
+Sumber data diambil dari GitHub repository [dataset](https://github.com/DickySaragih/data_science_02/blob/main/Students_Performance.csv)
+
+1.  **Import Libraries:** Mengimpor pustaka Python yang dibutuhkan untuk analisis data, pemodelan, dan visualisasi (pandas, numpy, matplotlib, seaborn, sklearn, gspread, google.colab.auth).
+2.  **Load Dataset:** Mengunduh dataset dari URL yang disediakan ke dalam pandas DataFrame.
+3.  **Cek Data:** Memeriksa struktur dataset, informasi kolom, dan distribusi data target ('Target').
+4.  **Cleaning Data:**
+    *   Membersihkan nama kolom (menghilangkan spasi, mengubah menjadi lowercase, menghapus karakter khusus).
+    *   Mengganti nama kolom 'Target' menjadi 'dropout\_status'.
+    *   Menghapus baris yang mengandung nilai yang hilang (missing values).
+5.  **Exploratory Data Analysis (EDA):**
+    *   Menganalisis distribusi status dropout.
+    *   Memeriksa pengaruh gender terhadap status dropout.
+    *   Menganalisis distribusi dropout berdasarkan jenis kursus.
+    *   Menganalisis hubungan status pernikahan dengan dropout.
+    *   Memeriksa hubungan usia saat masuk kuliah dengan status dropout.
+    *   Menyimpulkan insight dari analisis eksplorasi data.
+6.  **Data Preparation/Preprocessing:**
+    *   Menghapus kolom yang tidak relevan atau tidak informatif.
+    *   Mengodekan (encode) variabel kategorikal menjadi format numerik (menggunakan Label Encoding).
+    *   Melakukan normalisasi (scaling) pada fitur numerik menggunakan StandardScaler.
+    *   Membagi data menjadi set pelatihan (training) dan pengujian (testing) menggunakan `train_test_split` dengan strategi stratified sampling untuk menangani ketidakseimbangan kelas.
+    *   Menyimpulkan insight dari tahapan data preparation.
+7.  **Modeling:**
+    *   Menginisialisasi model klasifikasi (menggunakan RandomForestClassifier).
+    *   Melatih model menggunakan data pelatihan (X\_train, y\_train).
+    *   Melakukan prediksi pada data pengujian (X\_test).
+    *   Menyimpulkan insight dari proses modeling.
+8.  **Model Evaluation:**
+    *   Membuat dan menampilkan Confusion Matrix untuk melihat performa klasifikasi.
+    *   Mencetak Classification Report yang mencakup metrik Precision, Recall, F1-Score, dan Support untuk setiap kelas.
+    *   Menghitung dan mencetak F1-Score rata-rata (macro average).
+    *   Menyimpulkan insight dari evaluasi model, terutama mengenai ketidakseimbangan performa pada kelas minoritas (dropout).
+9.  **Visualisasi Data (Feature Importance):**
+    *   Menghitung pentingnya (importance) setiap fitur dalam model yang sudah dilatih.
+    *   Membuat DataFrame yang berisi nama fitur dan tingkat kepentingannya.
+    *   Mengurutkan fitur berdasarkan tingkat kepentingannya.
+    *   Mencetak daftar fitur teratas yang paling penting.
+    *   Membuat dan menampilkan bar plot untuk memvisualisasikan 10 fitur teratas yang paling memengaruhi prediksi dropout.
 
 Setup environment:
-```
 
-```
+- pip install pipenv
+- pipenv installpipenv shell
+- pip install -r requirements.txt
 
 ## Business Dashboard
 Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
