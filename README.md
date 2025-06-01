@@ -95,21 +95,31 @@ Sebagai langkah strategis, institusi ingin memiliki dashboard analitik yang dapa
 - Tiga kursus spesifik seperti Advertising and Marketing Management, Agronomy, dan Animation and Multimedia Design memiliki dropout cukup signifikan dibanding jumlah enrolled-nya.
 ![image](https://github.com/user-attachments/assets/9868ec5c-f79e-4e6f-9239-45f5d721d529)
 
-3. Melacak distribusi dropout berdasarkan gender
-4. Memberikan dasar bagi pengambilan keputusan dan intervensi dini terhadap siswa yang berisiko
+2 Melacak distribusi dropout berdasarkan gender
+- Female memiliki jumlah Graduate paling tinggi, tetapi juga mendominasi dalam kategori Dropout dan Enrolled.
+- Perbandingan Dropout antara laki-laki dan perempuan relatif seimbang.
+  ![image](https://github.com/user-attachments/assets/93b014bf-aeec-4274-bb78-3f410e5eae49)
+
+3. distribusi dropout
+- Total siswa: 4.424
+- - 49.9% lulus (Graduate)
+- 32.1% dropout
+- 17.9% masih terdaftar (Enrolled)
+  ![image](https://github.com/user-attachments/assets/01ec5e3a-aba7-4c48-b4aa-0ba17b3cffe8)
+**Kesimpulan:**
+  Proyek analisis data ini bertujuan untuk mengidentifikasi faktor-faktor utama yang memengaruhi status mahasiswa di Jaya Jaya Institut, khususnya terkait risiko dropout. Berdasarkan hasil eksplorasi data dan pemodelan, ditemukan bahwa sekitar 32,1% mahasiswa mengalami dropout, dengan proporsi lebih tinggi terjadi pada program studi tertentu seperti Advertising and Marketing Management serta Animation and Multimedia Design. Selain itu, mahasiswa yang mengikuti kursus persiapan tes memiliki kecenderungan lebih tinggi untuk lulus, sementara latar belakang pendidikan orang tua dan gender juga menunjukkan pola yang berpengaruh terhadap status akademik mahasiswa.
+Model klasifikasi yang dibangun, seperti Decision Tree dan Random Forest, mampu memprediksi status mahasiswa dengan performa yang baik, dan dapat dijadikan alat bantu dalam proses deteksi dini mahasiswa berisiko tinggi. Visualisasi interaktif yang disusun dalam dashboard Metabase memberikan gambaran menyeluruh tentang pola dropout dan dapat digunakan sebagai dasar pengambilan keputusan strategis.
+Secara keseluruhan, hasil proyek ini merekomendasikan perlunya penguatan dukungan akademik pada program studi dengan tingkat dropout tinggi, peningkatan akses terhadap program pembekalan akademik, serta penerapan sistem monitoring prediktif untuk mengurangi angka putus studi secara efektif.
+
+**Akses akun metabase**
+**Email : dickysaragih050901@gmail.com**
+
+**Password : dickycandidsaragih5**
+link dahsboard Metabase: https://localhost:3000/public/dashboard/6afde98e-58a7-4227-967d-7ecc1fe2ec24
 
 
 ## Menjalankan Sistem Machine Learning
 Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
 
-```
 
-```
 
-## Conclusion
-Jelaskan konklusi dari proyek yang dikerjakan.
-
-### Rekomendasi Action Items
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
-- action item 1
-- action item 2
