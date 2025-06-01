@@ -93,7 +93,8 @@ Sebagai langkah strategis, institusi ingin memiliki dashboard analitik yang dapa
 - Visualisasi menunjukkan jumlah siswa Graduate, Dropout, dan Enrolled berdasarkan jenis kursus persiapan.
 - Kategori "Other (14)" mendominasi semua status siswa, termasuk dropout.
 - Tiga kursus spesifik seperti Advertising and Marketing Management, Agronomy, dan Animation and Multimedia Design memiliki dropout cukup signifikan dibanding jumlah enrolled-nya.
-![gambar 1](http://localhost:3000/dashboard/36-student-performance-insight#edit)
+![image](https://github.com/user-attachments/assets/9868ec5c-f79e-4e6f-9239-45f5d721d529)
+
 3. Melacak distribusi dropout berdasarkan gender
 4. Memberikan dasar bagi pengambilan keputusan dan intervensi dini terhadap siswa yang berisiko
 
