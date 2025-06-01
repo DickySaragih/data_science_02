@@ -5,15 +5,29 @@ Jaya Jaya Institut, institusi pendidikan tinggi yang telah berdiri sejak tahun 2
 Institusi ingin memanfaatkan data yang dimiliki untuk mendeteksi lebih awal mahasiswa yang berisiko mengalami dropout agar dapat diberikan intervensi lebih cepat dan tepat sasaran.
 
 ### Permasalahan Bisnis
-1. Bagaimana cara memprediksi kemungkinan seorang mahasiswa akan mengalami dropout menggunakan data historis?
-2. Faktor-faktor apa saja yang paling berpengaruh terhadap risiko dropout?
-3. Bagaimana menyajikan hasil prediksi dan analisis data dalam bentuk visual agar mudah dipahami oleh tim akademik dan manajemen?
-   
+1. Bagaimana karakteristik siswa yang paling berisiko mengalami dropout?
+   - Apakah ada pola berdasarkan faktor seperti usia, status pernikahan, pekerjaan, atau performa akademik?
+2. Apakah kita dapat membangun model prediktif yang akurat untuk mendeteksi potensi dropout sejak dini?
+   - Model ini akan digunakan sebagai alat bantu untuk memantau siswa secara proaktif.
+3. Faktor apa yang paling berpengaruh terhadap kemungkinan dropout siswa?
+   - nformasi ini dapat menjadi dasar dalam merancang kebijakan atau program intervensi pendidikan.
+
+
 ### Cakupan Proyek
 Untuk menjawab permasalahan bisnis, cakupan proyek ini meliputi:
-- Analisis data mahasiswa (nilai, kehadiran, status sosial ekonomi, dll.)
-- Identifikasi variabel paling berpengaruh terhadap dropout
-- Membangun model machine learning untuk memprediksi dropout
+1.  Sumber data diambil dari GitHub repository [dataset]()
+2. Analisis data mahasiswa (nilai, kehadiran, status sosial ekonomi, dll.)
+3. Identifikasi variabel paling berpengaruh terhadap dropout
+4 . Membangun model machine learning untuk memprediksi dropout
+  dengan tahapan sebagai berikut:
+- Eksplorasi dan visualisasi data (EDA): Menggali pola dropout berdasarkan demografi dan variabel akademik.
+- Preprocessing & Feature Engineering: Menyiapkan data agar siap digunakan dalam algoritma prediksi, termasuk encoding dan standarisasi.
+- Modeling (Klasifikasi): Membangun model klasifikasi seperti Random Forest untuk memprediksi status siswa (Dropout, Enrolled, Graduate).
+- Evaluasi Model: Mengukur performa model dengan confusion matrix dan F1-score untuk memastikan efektivitas prediksi.
+- Visualisasi Hasil: Menyediakan visualisasi seperti confusion matrix dan grafik distribusi untuk mendukung interpretasi hasil.
+
+ 
+  
 - Visualisasi hasil untuk membantu pihak akademik dalam pengambilan keputusan
 - Sumber data diambil dari GitHub repository
 
