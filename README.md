@@ -106,20 +106,20 @@ Sebagai langkah strategis, institusi ingin memiliki dashboard analitik yang dapa
 - 32.1% dropout
 - 17.9% masih terdaftar (Enrolled)
   ![image](https://github.com/user-attachments/assets/01ec5e3a-aba7-4c48-b4aa-0ba17b3cffe8)
+  
 **Kesimpulan:**
   Proyek analisis data ini bertujuan untuk mengidentifikasi faktor-faktor utama yang memengaruhi status mahasiswa di Jaya Jaya Institut, khususnya terkait risiko dropout. Berdasarkan hasil eksplorasi data dan pemodelan, ditemukan bahwa sekitar 32,1% mahasiswa mengalami dropout, dengan proporsi lebih tinggi terjadi pada program studi tertentu seperti Advertising and Marketing Management serta Animation and Multimedia Design. Selain itu, mahasiswa yang mengikuti kursus persiapan tes memiliki kecenderungan lebih tinggi untuk lulus, sementara latar belakang pendidikan orang tua dan gender juga menunjukkan pola yang berpengaruh terhadap status akademik mahasiswa.
 Model klasifikasi yang dibangun, seperti Decision Tree dan Random Forest, mampu memprediksi status mahasiswa dengan performa yang baik, dan dapat dijadikan alat bantu dalam proses deteksi dini mahasiswa berisiko tinggi. Visualisasi interaktif yang disusun dalam dashboard Metabase memberikan gambaran menyeluruh tentang pola dropout dan dapat digunakan sebagai dasar pengambilan keputusan strategis.
 Secara keseluruhan, hasil proyek ini merekomendasikan perlunya penguatan dukungan akademik pada program studi dengan tingkat dropout tinggi, peningkatan akses terhadap program pembekalan akademik, serta penerapan sistem monitoring prediktif untuk mengurangi angka putus studi secara efektif.
 
 **Akses akun metabase**
+
 **Email : dickysaragih050901@gmail.com**
 
 **Password : dickycandidsaragih5**
 link dahsboard Metabase: https://localhost:3000/public/dashboard/6afde98e-58a7-4227-967d-7ecc1fe2ec24
 
-
-## Menjalankan Sistem Machine Learning
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
+**link streamlit:** https://studentsperformancegitdcs.streamlit.app/
 
 
 
