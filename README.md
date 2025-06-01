@@ -87,7 +87,16 @@ Setup environment:
 - pip install -r requirements.txt
 
 ## Business Dashboard
-Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
+Jaya Jaya Institut, sebuah institusi pendidikan tinggi yang telah berdiri sejak tahun 2000, menghadapi tantangan serius berupa tingginya angka siswa yang tidak menyelesaikan pendidikannya (dropout). Meskipun telah mencetak banyak lulusan dengan reputasi baik, persentase dropout yang signifikan berpotensi merusak citra institusi serta menghambat kualitas lulusan yang dihasilkan.
+Sebagai langkah strategis, institusi ingin memiliki dashboard analitik yang dapat menyajikan informasi dropout siswa secara visual dan interaktif. Tujuan dari dashboard ini adalah untuk:
+1. Jumlah Dropout Berdasarkan Test Preparation Course
+- Visualisasi menunjukkan jumlah siswa Graduate, Dropout, dan Enrolled berdasarkan jenis kursus persiapan.
+- Kategori "Other (14)" mendominasi semua status siswa, termasuk dropout.
+- Tiga kursus spesifik seperti Advertising and Marketing Management, Agronomy, dan Animation and Multimedia Design memiliki dropout cukup signifikan dibanding jumlah enrolled-nya.
+![gambar 1](http://localhost:3000/dashboard/36-student-performance-insight#edit)
+3. Melacak distribusi dropout berdasarkan gender
+4. Memberikan dasar bagi pengambilan keputusan dan intervensi dini terhadap siswa yang berisiko
+
 
 ## Menjalankan Sistem Machine Learning
 Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
